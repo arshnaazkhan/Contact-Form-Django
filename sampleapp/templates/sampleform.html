@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>Contact us</title>  
+</head>  
+<style>
+
+</style>
+<body style = "background-color: #63eb8e">  
+    <h1 class = "display-5 text-center"> Contact Us </h1>  <hr style = "border-top: 3px double #8c8b8b">  
+<form  action=" " method="POST" style = "margin-top: 35px; margin-bottom: 50px" >  
+        {% csrf_token %}  
+        {{ form.as_p}}  
+        <button type="submit" >Submit</button>  
+    </form>  
+</body>  
+</html>  
